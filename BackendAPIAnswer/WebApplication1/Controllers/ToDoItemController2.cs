@@ -24,7 +24,7 @@ namespace WebApplication1.Controllers
             _repository = repository;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
         public async Task<ActionResult<ToDoItem>> GetSpecificAsync(
             [Required] long id)
         {
