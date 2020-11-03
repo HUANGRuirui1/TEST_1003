@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.ToDoItemController.QueryAsync(System.String,System.Nullable{System.Boolean})">
+            <summary>
+            Query ToDoItem by specific description and done
+            </summary>
+            <remarks>
+            In remarks, we can document some detail information
+            </remarks>
+            <param name="description">ToDoItem description</param>
+            <param name="done">ToDoItem status</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.ToDoItemController.UpdateAsync(System.String,ConsoleApp1.Common.ToDoItemUpdateModel)">
+            <response code="200">Updated ToDoItem</response>
+            <response code="400">If id is empty</response>
+            <response code="404">If id is not existed in database</response>    
+        </member>
+    </members>
+</doc>
